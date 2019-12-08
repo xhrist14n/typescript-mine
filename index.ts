@@ -15,7 +15,7 @@ $(
     var html:string = '<h1 class="display-1 text-center text-primary text-uppercase">'+message+'</h1>';
     var appDiv = $("#app");
     appDiv.html(html);
-
+    
   }
 );
 
