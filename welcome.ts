@@ -9,7 +9,7 @@ import Swal from 'sweetalert2'
 $(
   function(){
 
-    let message:String = 'Proyecto Uno';
+    let message:String = 'Proyecto Welcome';
     message = message.toUpperCase();
     console.log(message);
     var html:string = '<h1 class="display-1 text-center text-primary text-uppercase">'+message+'</h1>';
