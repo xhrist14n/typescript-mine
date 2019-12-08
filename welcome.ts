@@ -11,7 +11,7 @@ import Swal from 'sweetalert2'
 
 // Write TypeScript code!
 let message = 'Hola Mundo';
-message = message.toLocaleUpperCase();
+message = message.toUpperCase();
 
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = '<h1 class="display-1 text-center text-primary">'+message+'</h1>';
