@@ -10,7 +10,7 @@ import Swal from 'sweetalert2'
 //const Swal = require('sweetalert2')
 
 // Write TypeScript code!
-let message:String = 'Hola Mundo';
+let message:String = 'Proyecto Uno';
 message = message.toUpperCase();
 
 const appDiv: HTMLElement = document.getElementById('app');
