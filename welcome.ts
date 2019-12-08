@@ -14,7 +14,7 @@ let message:String = 'Hola Mundo';
 message = message.toUpperCase();
 
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = '<h1 class="display-1 text-center text-primary">'+message+'</h1>';
+appDiv.innerHTML = '<h1 class="display-1 text-center text-primary text-uppercase">'+message+'</h1>';
 
 
 
