@@ -26,7 +26,7 @@ $(
         title: 'Exito!',
         text: 'Iniciando con Typescript',
         icon: 'success',
-        confirmButtonText: 'Exacto'
+        confirmButtonText: 'Preciso'
       }
     );
   }
