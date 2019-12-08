@@ -1,6 +1,12 @@
 // Import stylesheets
 import './style.css';
 
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2'
+
+// CommonJS
+const Swal = require('sweetalert2')
+
 // Write TypeScript code!
 const message = 'Hola Mundo';
 const appDiv: HTMLElement = document.getElementById('app');
